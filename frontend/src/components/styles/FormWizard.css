@@ -1,0 +1,41 @@
+.form-wizard__header{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: ivory;
+    border-radius: 4px;
+    box-shadow: -2px 7px 4px -4px rgba(0,0,0,0.2);
+}
+
+.form-wizard__header__circle {
+    color: #8d8d8d;
+    background-color: #e2e2e2;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.form-wizard__header__line {
+    width: 13%;
+    border-top: 1px solid black;
+    margin: 2px;
+}
+
+.form-wizard__header__text {
+    line-height: 45px; 
+    color: #8d8d8d;
+}       
+
+.form-wizard__header__circle--current {
+    border-color: #57b894;
+    background-color: #57b894;  
+    color: white;   
+}
+
+.form-wizard__header__text--current {
+    color: black;
+}    
