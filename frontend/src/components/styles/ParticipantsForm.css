@@ -1,0 +1,51 @@
+.participants-form {
+    padding: 15px 4%;
+    text-align: initial;
+    background-color: #f6f6f6;
+}
+
+.participants-form__number-participants {
+    display: flex;
+    margin: 2% 0;
+    align-items: flex-end;
+}
+
+.participants-form__number-participants__button {
+    background-color: white;
+    color: black;
+    /* border: 1px solid gray; */
+    border: 0;
+    font-size: 30px;      
+    width: 30px;
+    height: 30px;   
+    line-height: 0;
+    border-radius: 10px;
+    margin: 0 1%;
+    align-self: center;
+}
+.participants-form__number-participants__button:hover {
+    border: 1px solid black;
+}
+
+.participants-form__number-participants__label{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 4%;
+    font-size: 24px;
+}
+
+.participants-form__number-participants__number {
+    width: 90px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.participants-form__participant {
+    display: flex;
+    margin: 10px;
+}

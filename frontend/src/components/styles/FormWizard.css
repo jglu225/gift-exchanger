@@ -1,10 +1,12 @@
+/*  ===========
+       Header
+    =========== */
 .form-wizard__header{
     display: inline-flex;
     align-items: center;
-    width: 100%;
-    height: 45px;
-    background-color: ivory;
-    border-radius: 4px;
+    padding: 6px 3%;
+    width: 94%;
+    border-top: 1px solid lightgray;
     box-shadow: -2px 7px 4px -4px rgba(0,0,0,0.2);
 }
 
@@ -26,10 +28,16 @@
 }
 
 .form-wizard__header__text {
-    line-height: 45px; 
+    /* line-height: 45px;  */
     color: #8d8d8d;
 }       
+/*  =========== */
 
+
+
+/*  ===================
+       Header Active
+    =================== */
 .form-wizard__header__circle--current {
     border-color: #57b894;
     background-color: #57b894;  
@@ -39,3 +47,82 @@
 .form-wizard__header__text--current {
     color: black;
 }    
+/*  ===============
+
+
+/*  ===============
+       Buttons 
+    =============== */
+.form-wizard__buttons{
+    width: 96%;
+    height: 30px;
+    padding: 6px 2%;
+    border-top: 1px solid lightgray;
+    box-shadow: -2px 7px 4px -4px rgba(0,0,0,0.2);
+    display: flex;
+}
+
+.form-wizard__buttons--step-1{
+    justify-content: flex-end;
+}
+
+.form-wizard__buttons--step-2{
+    justify-content: space-between;
+}
+
+.form-wizard__buttons--step-3{
+    justify-content: space-between;
+}
+
+.form-wizard__buttons__previous{
+    border: 0;
+    margin: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: #409fde;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;   
+    border-radius: 3px;
+}
+.form-wizard__buttons__previous:hover{
+    background-color: #409fde;
+    color: white;
+}
+
+.form-wizard__buttons__next{
+    border: 0;
+    margin: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: #409fde;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;   
+    border-radius: 3px;
+}
+
+.form-wizard__buttons__next:hover{
+    background-color: #409fde;
+    color: white;
+}
+
+.form-wizard__buttons__send{
+    border: 0;
+    margin: 0;
+    background-color: #1ea963;
+    color: white;
+    font-weight: bold;      
+    width: 100px;
+    height: 30px;   
+    border-radius: 3px;
+}
+.form-wizard__buttons__send:hover{
+    opacity:  0.8;
+}
+
+.temp{
+    width: 100%;
+    height: 400px;
+    background-color: #f6f6f6;
+}

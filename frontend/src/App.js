@@ -13,7 +13,7 @@ class App extends Component {
         <FormWizard>
 
         </FormWizard>
-        <p>Hello World</p>
+
       </div>
     );
   }
