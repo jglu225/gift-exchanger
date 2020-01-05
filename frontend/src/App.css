@@ -2,15 +2,6 @@
   text-align: center;
 }
 
-
-/* .hero-image {
-  background: url('./images/logo.svg') no-repeat center top;
-  background-size: cover;
-}
-@media (max-width: 768px) {
-  background: url('logo.svg') no-repeat center top;
-} */
-
 .App-intro {
   font-size: large;
 }
