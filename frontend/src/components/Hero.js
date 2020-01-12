@@ -6,7 +6,7 @@ import heroImage from '../images/undraw_gifts_btw0.svg';
 class Hero extends React.Component {
     render() {
         return (
-            <Jumbotron>
+            <Jumbotron style={{background: "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)"}}>
                 <Container>
                     <Row>
                         <Col sm>

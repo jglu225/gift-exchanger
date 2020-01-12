@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hero from "./components/Hero.js";
 import Features from "./components/Features.js";
+import Wizard from "./components/Wizard.js"
 import Participants from "./components/Participants";
 
 import {Form} from "react-bootstrap";
@@ -13,9 +14,7 @@ class App extends Component {
       <div className="App">
         <Hero/>
         <Features/>
-        <Form> 
-          <Participants/>
-        </Form>
+        <Wizard/>
       </div>
     );
   }

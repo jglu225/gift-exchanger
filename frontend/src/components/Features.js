@@ -8,7 +8,7 @@ import './styles/Features.css';
 class Features extends React.Component {
     render() {
         return (
-            <Container>
+            <Container style={{marginTop: "40px"}}>
                 <Row>
                     <Col md>
                         <Image className="features-container__item__img" src={participants} alt="participants"/>

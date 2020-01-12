@@ -1,5 +1,5 @@
 import React from 'react';
-import {Form, Container, Row, Col, Button} from 'react-bootstrap';
+import {Form, Container, Row, Col, Button, ButtonGroup} from 'react-bootstrap';
 
 class Participants extends React.Component {
     render() {
@@ -8,15 +8,17 @@ class Participants extends React.Component {
     //   }
 
       return(
-        <Form.Row className="justify-content-md-center">
-            <Button>-</Button>
-            <Form.Group as={Col} md="4">
-                <Form.Label>Number of Participants</Form.Label>
-                <Form.Control type="number"/>   
-            </Form.Group>
-            <Button>+</Button>
-        </Form.Row>
 
+        <div>   
+            <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+                <div><Button size="lg">-</Button></div>
+                <div style={{lineHeight: "50px", fontSize: "45px", margin: "0 10px"}}>6</div>
+                <div><Button size="lg">+</Button></div>
+                <div style={{flexBasis: "100%"}}><h3>Number of Participants</h3></div>
+            </div>
+
+        </div>
+        
       )
     }
   }
