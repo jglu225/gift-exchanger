@@ -1,0 +1,17 @@
+.numParticipants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.numParticipants_number {
+    line-height: 50px;
+    width: 60px;
+    font-size: 45px;
+    margin: 0 10px;
+}
+
+.numParticipants_label {
+    flex-basis: 100%
+}

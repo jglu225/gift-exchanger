@@ -1,0 +1,34 @@
+.wizard {
+    margin: 40px 1%;
+}
+
+.wizard_header{
+    font-size: 20px;
+    display: flex;
+}
+
+.current {
+    color: green;
+}
+
+.line {
+    border: 1px solid grey;
+    width: 15%;
+    height: 0;
+    margin: auto 10px;
+}
+
+.step1Footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.step2Footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step3Footer {
+    display: flex;
+    justify-content: space-around;
+}
